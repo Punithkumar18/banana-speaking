@@ -1,0 +1,39 @@
+:root {
+    --primary :#f5ec6c;
+}
+*{
+    box-sizing: border-box;
+    font-size: 1rem;
+    padding:1rem;
+}
+div{
+    display: block;
+}
+nav{
+    background-color: #f5ec6c;
+    text-align: center;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+
+}
+
+#btn-translate{
+    background-color: var(--primary);
+    border: white;
+    margin: auto;
+    padding: 1rem 2rem;
+    font-family: cursive;
+    display: block;
+}
+#text-info{
+    margin: auto;
+}
+#footer-info{
+    background-color: var(--primary);
+    margin: 0rem 0rem;
+    text-align: center;
+}
